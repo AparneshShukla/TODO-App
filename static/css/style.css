@@ -1,0 +1,123 @@
+
+body{
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 234, 208);
+}
+hr{
+    height: 5px;
+    background-color: brown;
+    border: none;
+}
+.main{
+    padding: 10px 50px;
+}
+
+fieldset{
+    padding: 20px 30px;
+    border: none;
+    border-top: 10px solid brown;
+}
+
+legend{
+    background-color:antiquewhite;
+    color: brown;
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+small{
+    font-family:cursive;
+}
+
+.block{
+    display: block;
+    margin: 10px;
+}
+
+
+
+/* Style for the input box */
+input[type="text"] {
+    width: 300px; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    font-size: 16px;
+    outline: none; 
+    transition: border-color 0.3s ease; 
+    border: 1px solid rgb(255, 234, 208);
+}
+
+input[type="text"]:focus {
+    border: 1px solid brown;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa; 
+}
+
+
+
+
+
+button{
+    height: 30px;
+    width: 80px;
+    margin: 10px;
+    background-color: rgb(145, 246, 132) ;
+    color: brown;
+    border: none;
+    font-size: 17px;
+}
+
+#reset{
+   background-color: rgb(255, 217, 168) ;
+}
+
+button:hover{
+    box-shadow:inset 0px -15px 15px #22222222;
+}
+
+input[type="radio"]{
+    vertical-align: -10%;
+}
+
+.todo{
+    margin: 10px;
+    padding: 10px 100px 10px 30px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(11.8px);
+    backdrop-filter: blur(11.8px);
+    border: 1px solid #ffffff55;
+}
+
+.todo span {
+    display: inline-block;
+    background-color: rgba(48, 165, 42, 0.462); 
+    padding: 1px 10px;
+    border-radius: 12px;
+    color: rgb(68, 0, 0);
+    margin: 5px;
+    font-size: small;
+}
+
+.todo .gre {
+    background-color: rgba(165, 42, 42, 0.462);
+}
+
+.del-form{
+    display: inline-block;
+}
+
+#del{
+    background-color: #ff000055;
+}
